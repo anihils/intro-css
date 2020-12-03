@@ -1,0 +1,41 @@
+/* 
+
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+    /* the follow is the code to have the image display as a full page */
+    color: #20b954;
+	background: url('IMG_9621.jpg');
+	background-position: right;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: 45% 100%;
+    background-repeat: no-repeat;
+
+}
+h1 {
+    font-size: 60px;
+}
+#container {
+    color: #20b954;
+    font-family: 'Castoro', serif;
+    width: 55%;
+    background: black;
+    text-align: center;
+    padding-bottom: 5%;
+}
+img {
+    width: 50%;
+    height: auto;
+}
+#video{
+    padding: 5%;
+}
+a {
+    color: #20b954;
+}
